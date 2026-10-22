@@ -3,7 +3,6 @@ from airflow.decorators import dag, task
 from airflow.providers.google.cloud.operators.dataflow import (
     DataflowStartFlexTemplateOperator,
 )
-from airflow.providers.google.cloud.sensors.dataflow import DataflowJobStatusSensor
 from airflow.providers.google.cloud.sensors.gcs import GCSObjectExistenceSensor
 
 GCP_CONN = "google_cloud_default"

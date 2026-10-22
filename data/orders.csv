@@ -1,6 +1,6 @@
-order_id,customer,amount,status
-1,Alice,150.00,completed
-2,Bob,89.50,pending
-3,Carol,200.00,completed
-4,Dave,45.00,cancelled
-5,Eve,310.00,completed
+order_id,customer,amount,status,order_date
+1,Alice,150.00,completed,2026-10-22
+2,Bob,89.50,pending,2026-10-22
+3,Carol,200.00,completed,2026-10-22
+4,Dave,45.00,cancelled,2026-10-22
+5,Eve,310.00,completed,2026-10-22
